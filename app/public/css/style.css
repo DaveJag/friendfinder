@@ -1,0 +1,32 @@
+.jumbotron {
+	margin: 20px;
+	background: #FFFFFF;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+	background: #09B6F5;
+}
+
+.buttons {
+	padding: 10px;
+}
+
+#submit {
+	margin: 20px;
+}
+hr {
+	border-color: inherit;
+	    margin: 1em 0;
+}
+
+#resultsModal img {
+	width: 480px;
+	overflow: hidden;
+
+}

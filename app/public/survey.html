@@ -1,0 +1,241 @@
+<!-- Dave Jagodowski-survey.html -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Responsive web design viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Welcome to Friend Finder!</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../routing/apiRoutes.js"></script> 
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1 class=""> Take the Friend Finder Survey! </h1>
+				<hr>
+				<h2>Your Next Best Friend Could Be Only 10 Questions Away!</h2>
+			</div>
+			
+			<h2>Survey Questions</h2>
+			<hr>
+			<h3><strong>Name and Photo</strong></h3>
+			<h4>Name (Required)</h4>
+			<input type="text" name="" id="name" class="form-control" required>
+			
+			<h4>Link to Photo Image (Required)</h4>
+			<input type="text" name="" id="photo" class="form-control" required>
+			<hr>
+			
+			<h3><strong>Question 1</strong></h3>
+			<h4>I often go out of my way to help other people.</h4>
+			<select data-placeholder="" class="chosen-select" id="question1">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+			
+			<h3><strong>Question 2</strong></h3>
+			<h4>I am usually the first to admit it when I make a mistake.</h4>
+			<select data-placeholder="" class="chosen-select" id="question2">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+			
+			<h3><strong>Question 3</strong></h3>
+			<h4>I mostly  associate with people that share my political beliefs. </h4>
+			<select data-placeholder="" class="chosen-select" id="question3">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+			
+			<h3><strong>Question 4</strong></h3>
+			<h4>I consider myself to be a spiritual person. </h4>
+			<select data-placeholder="" class="chosen-select" id="question4">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+			
+			<h3><strong>Question 5</strong></h3>
+			<h4>I would rather be out playing a sport than watching it on TV.</h4>
+			<select data-placeholder="" class="chosen-select" id="question5">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+			
+			<h3><strong>Question 6</strong></h3>
+			<h4>I am guided by religious/moral values in most everything I do. </h4>
+			<select data-placeholder="" class="chosen-select" id="question6">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+			
+			<h3><strong>Question 7</strong></h3>
+			<h4>My perfect vacation would involve getting away from the crowd. </h4>
+			<select data-placeholder="" class="chosen-select" id="question7">
+			    <option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+			
+			<h3><strong>Question 8</strong></h3>
+			<h4>I enjoy laughing and/or making others laugh. </h4>
+			<select data-placeholder="" class="chosen-select" id="question8">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+			
+			<h3><strong>Question 9</strong></h3>
+			<h4>All work and no play makes Jack a dull boy. </h4>
+			<select data-placeholder="" class="chosen-select" id="question9">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+			
+			<h3><strong>Question 10</strong></h3>
+			<h4>I routinely put the needs and desires of others before my own. </h4>
+			<select data-placeholder="" class="chosen-select" id="question10">
+				<option value=""></option>
+				<option value="1">1 (Strongly Disagree)</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5 (Strongly Agree)</option>
+			</select>
+
+			<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i> Submit </button>
+		</div>
+
+		<!-- Format the modal window to view result. -->
+		<div id="resultsModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h2 class="modal-title"><strong>Your Best Match is:</strong></h2>
+					</div>
+					
+					<div class="modal-body">
+						<h2 id="matchName"></h2>
+						<img id="matchImg" src="">
+					</div>
+					
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+
+<script type="text/javascript">
+
+// Capture the form inputs
+$("#submit").on("click", function() {
+
+    // Validation. Make sure all fields are completed. 
+    function validateForm() {
+        var isValid = true;
+
+        //Test if data was written into Name / Photo Image fields.   
+        $('.form-control').each(function() {
+            if ($(this).val() === '')
+                isValid = false;
+        });
+        //Test if all survey questions were answered.   
+        $('.chosen-select').each(function() {
+            if ($(this).val() === "")
+                isValid = false
+        })
+        return isValid;
+    }
+    // If all required fields are filled
+    if (validateForm() == true) {
+        // Create an object for the user's data
+        var userData = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: [$("#question1").val(), $("#question2").val(), $("#question3").val(), $("#question4").val(), $("#question5").val(), $("#question6").val(), $("#question7").val(), $("#question8").val(), $("#question9").val(), $("#question10").val(), ]
+        }
+
+        // Get the URL of the website
+        var currentURL = window.location.origin;
+        // AJAX post the data to the friends API.
+        $.post(currentURL + "/api/friends", userData, function(data) {
+            // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+            $("#matchName").text(data.name);
+            $('#matchImg').attr("src", data.photo);
+            // Show the modal with the best match
+            $("#resultsModal").modal('toggle');
+        });
+    } else {
+        alert("All fields must be filled before submitting!");
+    }
+    return false;
+});
+
+// configure jQuery's Chosen Plugin CSS
+var config = {
+    ".chosen-select": {},
+    ".chosen-select-deselect": {
+        allow_single_deselect: true
+    },
+    ".chosen-select-no-single": {
+        disable_search_threshold: 10
+    },
+    ".chosen-select-no-results": {
+        no_results_text: "No results found."
+    },
+    ".chosen-select-width": {
+        width: "95%"
+    }
+}
+
+for (var selector in config) {
+    $(selector).chosen(config[selector]);
+}
+</script>
+
+</body>
+</html>
